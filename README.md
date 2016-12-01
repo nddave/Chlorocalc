@@ -1,0 +1,2 @@
+# Chlorocalc
+The idea is to take values of light intensity given to a plant (x variable) and chlorophyll generated (y variable) and to evolve a formula that models the two variables. Then use the same formula as an error function to evolve a set of values that correspond to light intensities. This list of light intensitites can then be used by green houses or farmers to automate an efficient plant growth cycle using changing light intensities. All of this using genetic programming and artificial intelligence.
