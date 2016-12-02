@@ -2,7 +2,7 @@
 
 ![alt tag](https://raw.githubusercontent.com/nddave/Chlorocalc/master/Chlorocalc.png)
 
-Using genetic programming and artificial intelligence, this program creates a formula to model the correlation between light intensity and chlorophyll generation in a plant. This formula can then be used by greenhouses to model the most optimal plant growth.
+Using genetic programming and artificial intelligence (regression method), this program creates a formula to model the correlation between light intensity and chlorophyll generation in a plant.
 
 The idea is to take values of light intensity given to a plant (x variable) and chlorophyll generated (y variable) and to evolve a formula that models the two variables. Then use the same formula as an error function to evolve a set of values that correspond to light intensities. This list of light intensitites can then be used by green houses or farmers to automate an efficient plant growth cycle using changing light intensities.
 
@@ -44,7 +44,7 @@ Here, the AI starts by creating a random fomula and keeps tweaking it until an e
 
 ![alt_tag](https://raw.githubusercontent.com/nddave/Chlorocalc/master/Generation%2024.png)
 
-The end formula may be hard for a human eye to interpret, however, if ran as a Clojure code, it will result and output that precisely resonates and models the data provided by the research paper. You can find all code files [here](https://github.com/nddave/Chlorocalc/tree/master/src/evol_4).
+The end formula may be hard for a human eye to interpret, however, if ran as a Clojure code, it will result and output that precisely resonates and models the data provided by the research paper. Please check [Chlorocalc Running.pdf](https://github.com/nddave/Chlorocalc/blob/master/Chlorocalc%20Running.pdf) to find a screenshot of the running algorithm. You can find all code files [here](https://github.com/nddave/Chlorocalc/tree/master/src/evol_4).
 
 # License information
 
