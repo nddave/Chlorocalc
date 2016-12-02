@@ -46,7 +46,7 @@ Here, the AI starts by creating a random fomula and keeps tweaking it until an e
 
 The end formula may be hard for a human eye to interpret, however, if ran as a Clojure code, it will result and output that precisely resonates and models the data provided by the research paper. Please check [Chlorocalc Running.pdf](https://github.com/nddave/Chlorocalc/blob/master/Chlorocalc%20Running.pdf) to find a screenshot of the running algorithm. You can find all code files [here](https://github.com/nddave/Chlorocalc/tree/master/src/evol_4).
 
-# License information [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)(http://creativecommons.org/licenses/by/4.0/)
+# License information ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
 
