@@ -25,7 +25,7 @@ Chlorocalc is quick and easy to setup. Assuming you have the following downloade
 * Gorilla REPL
 
 After this, download the Chlorocalc.zip file, change directory to the Chlorocalc folder and run it with the following command:
-```
+```clojure
 lein gorilla
 ```
 This will start a local server, and will output the local host URL. Please use this URL to access the Gorilla REPL using your favourite web browser. Once in Gorilla REPL, click the top right button and chose 'Load a worksheet', then chose 'core.clj'. This will load the main code page. Once loaded press (shift + enter) in the code box to load all the defined functions. The result output will look as follows:
@@ -52,7 +52,7 @@ nil
 ```
 
 Once all the functions have been loaded, please enter the following command (by pressing shift + enter) to begin mutation and evolution process. The goal of this program is to use AI to generate a formula that models light intensity and chlorophyll data in a given plant.
-```
+```clojure
 (model-correlation 1000)
 ```
 This will begin the mutation and evolution process for creating the formula that models the light intensity and chlorophyll data. The '1000' in the command is the initial population size. The larger the population size, the better the mutation, crossover and evolution process occurs. Once the evolution process starts, it will look like the following:
